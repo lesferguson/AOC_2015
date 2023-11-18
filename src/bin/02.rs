@@ -7,7 +7,7 @@ pub fn part_one(input: &str) -> Option<u32> {
         // println!("{}", present);
         for dim in present.split("x") {
             // println!("{}", dim);
-            let dim_c = dim.clone().trim();
+            let dim_c = dim.trim();
             dimensions[side] = dim_c.parse::<u32>().unwrap();
             side += 1;
             // println!("{:?}", dimensions)
@@ -28,7 +28,7 @@ pub fn part_two(input: &str) -> Option<u32> {
         // println!("{}", present);
         for dim in present.split("x") {
             // println!("{}", dim);
-            let dim_c = dim.clone().trim();
+            let dim_c = dim.trim();
             dimensions[side] = dim_c.parse::<u32>().unwrap();
             side += 1;
             // println!("{:?}", dimensions)
