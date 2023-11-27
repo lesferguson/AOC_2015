@@ -14,4 +14,5 @@ doctest = false
 test_lib = []
 
 [dependencies]
+md5 = "0.7.0"
 pico-args = "0.5.0"
